@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body html{
+height: 100vh;
+}
+.heroimg
+{
+  
+    height:70vh;
+    
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/dev.jpg")
+}
+.herotxt
+{
+ color:white ;
+ transform: translate(100px,250px);
+ position: absolute;
+ text-align: center;
+
+ 
+}
+#name
+{
+  font-size: 1rem;
+ line-height: 50px;
+}
+#role
+
+ {
+  font-size: 3rem;
+  word-spacing: 5px
+}
+.heading
+{
+  background-color: black;
+  color: white;
+  height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+  font-size: 1rem;
+}
+ .service
+ {
+  height: 200px;
+  display: flex;
+margin-top: 30px;
+
+
+  overflow: hidden;
+  
+ }
+ .contact
+ {
+  background-color: yellowgreen;
+  height: 100%;
+  width: 50%;
+  color: white;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+
+ 
+ }
+ .about
+ {
+  background-color: purple;
+  height: 100%;
+  width: 50%;
+  color: white;
+ overflow: hidden;
+  padding-left: 10px;
+padding-right: 10px;
+
+ }
+footer
+{
+  background-color: black;
+  color: white;
+  height: 50px;
+text-align: center;
+text-transform: capitalize;
+padding: 15px;
+
+  
+}
+
+
+.work
+{
+  display: flex;
+  overflow: hidden;
+text-align: center;
+margin-top: 30px;
+margin-left: 50px;
+margin-right: 50px;
+
+
+}
+.container p
+{
+  text-align: justify;
+
+margin-top: 10px;
+  
+}
+.card1
+{
+  background-color: white;
+  border: 1px solid black;
+  width: 33.33%;
+  border-radius: 5px;
+  
+
+}
+.card2
+{
+  background-color: white;
+  border: 1px solid black;
+  width: 33.33%;
+ margin-left: 20px;
+ border-radius: 5px;
+
+ 
+}
+.card3
+{
+  background-color: white;
+  border: 1px solid black;
+  width: 33.33%;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+img
+{
+  position: relative;
+  height: 50%;
+  width: 100%;
+ 
+}
+.container{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+ 
+}
+.service p{
+ 
+  text-align: left;
+  margin-top: 15px;
+  line-height: 25px;
+}
+.about h2{
+ padding-top: 15px;
+}
+.contact h2 
+{
+  padding-top: 15px;
+}
+@media  only screen and (max-width:650px) 
+{
+   .service
+  {
+  flex-direction: column;
+  }
+  .card1
+  {
+    border-radius: 5px;
+    border:2px solid black;
+    width: 100%;
+  }
+  .card2
+  {
+    border-radius: 5px;
+    border:2px solid black;
+    margin-left: 0;
+    
+  margin-top: 15px;
+  width: 100%;
+  }
+  .card3
+  {
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 5px;
+    border:2px solid black;
+    margin-top: 15px;
+    
+    
+  } 
+  .work{
+    flex-direction: column;
+    
+  }
+  
+  .service
+  {
+    flex-direction: row;
+  }
+  .herotxt{
+    transform: translate(30px,200px);
+  }
+  #role
+  {
+    font-size: 1rem;
+  }
+  
+} 
