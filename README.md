@@ -27,4 +27,4 @@ To run the landing page locally, follow these steps:
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/landing-page.git
+[git clone https://github.com/your-username/landing-page.git](https://github.com/manasi-gade07/Landing_Page_Website.git)
